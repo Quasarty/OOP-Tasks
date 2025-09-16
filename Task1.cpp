@@ -11,9 +11,12 @@ using namespace std;
 
 int main(){
     float a, b = 0; //< Переменные для катетов
-    float c, s = 0;
+    float c, s = 0; //< Переменные для ответов
+    
+    //Тесты 
     my_unit::Test_GetHypotenuse();
     my_unit::Test_GetSquare();
+    
     //Ввод катетов
     cout << "Введите катеты прямоугольного треугольника: ";
     cin >> a >> b;
