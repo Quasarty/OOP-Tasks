@@ -5,6 +5,7 @@
 
 #pragma once
 
+namespace my_unit{
 /**
  * @brief Возвращает гипотенузу прямоугольного треугольника по его катетам
  * 
@@ -20,3 +21,17 @@ float GetHypotenuse(float a, float b);
  * @param b второй катет
  */
 float GetSquare(float a, float b);
+
+/**
+ * @brief Процедура для теста функции GetSquare
+ * 
+ */
+void Test_GetSquare();
+
+/**
+ * @brief Процедура для теста функции GetHypotenuse
+ * 
+ */
+void Test_GetHypotenuse();
+
+}

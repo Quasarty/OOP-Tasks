@@ -12,13 +12,14 @@ using namespace std;
 int main(){
     float a, b = 0; //< Переменные для катетов
     float c, s = 0;
-    
+    my_unit::Test_GetHypotenuse;
+    my_unit::Test_GetSquare;
     //Ввод катетов
     cout << "Введите катеты прямоугольного треугольника: ";
     cin >> a >> b;
 
     //Вывод
-    cout << format("Гипотенуза = {}\nПлощадь = {}", GetHypotenuse(a, b), GetSquare(a, b));
+    cout << format("Гипотенуза = {}\nПлощадь = {}", my_unit::GetHypotenuse(a, b), my_unit::GetSquare(a, b));
 
     return 0;
 }
