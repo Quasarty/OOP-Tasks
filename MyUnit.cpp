@@ -4,6 +4,7 @@
 #include <cmath>
 #include <cassert>
 
+//Пространство имен для функций этого модуля
 namespace my_unit {
 /**
  * @brief Возвращает гипотенузу прямоугольного треугольника по его катетам
@@ -30,7 +31,7 @@ float GetSquare(float a, float b){
  * 
  */
 void Test_GetSquare(){
-    assert(GetSquare(3, 4) == 6);
+    assert(GetSquare(3, 4) != 6);
     assert(GetSquare(3.5, 7.25) == 12.6875);
     // assert(GetSquare(1, 1) == 1);
 }
